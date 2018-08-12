@@ -99,7 +99,3 @@ C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\android\assets\System.Xml.Linq.p
 C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\vinic\Desktop\Polyline\Droid\bin\Debug\MapOverlay.Droid.dll
-C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\linksrc\MapOverlay.Droid.dll.mdb
-C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-C:\Users\vinic\Desktop\Polyline\Droid\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
