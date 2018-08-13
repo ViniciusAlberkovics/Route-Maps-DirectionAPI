@@ -8,8 +8,8 @@ namespace MapOverlay
 		public MapPage ()
 		{
 			InitializeComponent ();
-
 			BindingContext = new CustomMapViewModel();
+
 			CustomMapViewModel.myMap = customMap;
 
 			#region Rota antiga

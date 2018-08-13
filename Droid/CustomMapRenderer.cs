@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using Android.Content;
+using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
 using MapOverlay;
 using MapOverlay.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Maps.Android;
+using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(CustomMap), typeof(CustomMapRenderer))]
 namespace MapOverlay.Droid
@@ -18,14 +20,11 @@ namespace MapOverlay.Droid
         {
         }
 
-        protected override void OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs<Map> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<Map> e)
         {
             base.OnElementChanged(e);
 
-            if (e.OldElement != null)
-            {
-                // Unsubscribe
-            }
+			if (e.OldElement != null) return;
 
             if (e.NewElement != null)
             {
@@ -35,7 +34,7 @@ namespace MapOverlay.Droid
             }
         }
 
-        protected override void OnMapReady(Android.Gms.Maps.GoogleMap map)
+        protected override void OnMapReady(GoogleMap map)
         {
             base.OnMapReady(map);
 			NativeMap.TrafficEnabled = true;
